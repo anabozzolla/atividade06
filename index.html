@@ -26,6 +26,94 @@
         </div>
     </header>
 
+    <main>
+        <section class="secao">
+            <div class="container">
+                <h2 class="titulo-secao">O que é Git?</h2>
+
+                <div class="grade-cards">
+                    <article class="card">
+                        <p>O Git é um sistema de controle de versões que permite acompanhar 
+                            as mudanças feitas em um projeto ao longo do tempo. Com ele, você 
+                            pode registrar alterações, consultar versões anteriores e organizar 
+                            seu código com mais segurança. É uma ferramenta essencial para quem 
+                            está aprendendo programação e para profissionais da área de tecnologia.</p>
+                    </article>
+
+                        <h3>Conheça os principais comandos</h3>
+                        <p>Com os comandos certos, você consegue acompanhar alterações, salvar versões 
+                            do seu projeto e compartilhar seu trabalho. Estes são os principais para 
+                            começar:</p>
+
+                    <article class="card">
+                        
+
+                        <ul>
+                            <li><code>git init</code> - Inicia um repositório Git na pasta atual, permitindo acompanhar as versões do projeto.</li>
+                            <li><code>git add</code> - Seleciona os arquivos e as alterações que você deseja incluir no próximo commit. <br>
+                                exemplo: <code>git add .</code></li>
+                            <li><code>git commit</code> - Registra uma versão das alterações preparadas, com uma mensagem que descreve o que foi feito. <br>
+                                exemplo: <code>git commit -m "Adiciona página inicial"</code></li>
+                            <li><code>git push</code> - Envia seus commits para um repositório remoto, como o GitHub.</li>
+                            <li><code>git pull</code> - Busca as atualizações do repositório remoto e tenta integrá-las ao seu projeto local.</li>
+                        </ul>
+                    </article>
+
+                    <h2 class="titulo-secao">Git na prática</h2>
+                    <p>Comandos para o dia a dia</p>
+
+                    <h3>Criar um repositório</h3>
+                    <pre class="codigo">
+                        <code>
+                            git init
+                            git add .
+                            git commit -m "Primeiro commit"
+                            git remote add origin URL_DO_REPOSITORIO
+                            git push origin main
+                        </code>
+                        </pre>
+
+                    <h3>Salvando alterações no projeto</h3>
+                    <pre class="codigo">
+                        <code>
+                           git status
+                            git add .
+                            git commit -m "Atualiza o layout do site"
+                        </code>
+                        </pre>
+
+                    <h3>Enviando atualizações para o GitHub</h3>
+                    <pre class="codigo">
+                        <code>
+                           git push origin main
+                        </code>
+                        </pre>
+
+                    <h3>Baixando um projeto do GitHub</h3>
+                    <pre class="codigo">
+                        <code>
+                           git clone URL_DO_REPOSITORIO
+                            cd nome-do-projeto
+                        </code>
+                        </pre>
+
+                    <h3>Atualizando o projeto com alterações de outras pessoas</h3>
+                    <pre class="codigo">
+                        <code>
+                           git pull
+                        </code>
+                        </pre>
+
+
+                    </pre>
+
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
     
 
 </body>
