@@ -109,9 +109,25 @@ code, pre{
     overflow-x: auto;
 
     padding: 5px;
-    background-color: #211616;
+    background-color: #333333;
     color: #F5F5F5;
 
     border-radius: 6px;
 
+}
+
+.rodape{
+    margin-top: 40px;
+    padding: 25px;
+    background-color: #434343;
+
+    text-align: center;
+}
+
+.rodape address{
+    font-style: normal;
+}
+
+.rodape a{
+    text-decoration: none;
 }
